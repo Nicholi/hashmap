@@ -19,7 +19,9 @@
 	"validthis": true,
 
 	"esnext": true,
-	"globals": {},
+	"globals": {
+	  "self": false
+	},
 	"browser": true,
 	"devel": true,
 	"mocha": true,
